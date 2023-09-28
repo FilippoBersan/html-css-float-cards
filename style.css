@@ -28,6 +28,12 @@ common
 *************
 */
 
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
 /*
 *************
 header
@@ -36,14 +42,14 @@ header
 
 .containertitolo {
   width: 1000px;
-  height: 800px;
+  height: 15 0px;
   text-align: center;
   margin: 0 auto;
 }
 
 h1 {
   font-family: 'Fredoka', sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   color: #e53170;
   text-align: center;
   margin-top: 20px;
@@ -62,3 +68,21 @@ h1 {
 main
 *************
 */
+
+/* .box {
+  height: 100px;
+  width: 300px;
+  background-color: black;
+  display: inline-block;
+  margin: 20px;
+  float: left;
+} */
+
+.team > .box {
+  height: 100px;
+  width: calc(100% / 3 - 50px);
+  float: left;
+  background-color: black;
+  padding: 50px;
+  margin: 20px;
+}
