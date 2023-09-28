@@ -1,0 +1,60 @@
+/*
+*************
+reset
+*************
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+*************
+typography
+*************
+*/
+
+body {
+  /* font-family: 'Fredoka', sans-serif; */
+
+  text-align: center;
+}
+
+/*
+*************
+common
+*************
+*/
+
+/*
+*************
+header
+*************
+*/
+
+.containertitolo {
+  width: 1000px;
+  height: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 50px;
+  color: #e53170;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.sottotitolo {
+  padding-top: 50px;
+}
+
+/*
+*************
+main
+*************
+*/
