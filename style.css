@@ -34,6 +34,12 @@ common
   clear: both;
 }
 
+h1,
+h2,
+h3 {
+  font-family: 'Fredoka', sans-serif;
+}
+
 /*
 *************
 header
@@ -48,7 +54,6 @@ header
 }
 
 h1 {
-  font-family: 'Fredoka', sans-serif;
   font-size: 40px;
   color: #e53170;
   text-align: center;
@@ -79,10 +84,52 @@ main
 } */
 
 .team > .box {
-  height: 100px;
+  /* height: 100px; */
   width: calc(100% / 3 - 50px);
-  float: left;
-  background-color: black;
-  padding: 50px;
+  background-color: rgb(0, 0, 0);
+
   margin: 20px;
+  float: left;
+}
+
+.team-person {
+  float: left;
+}
+
+.team-face {
+  float: left;
+}
+
+.team-info {
+  float: right;
+  text-align: center;
+  width: calc(100% - 100px);
+  padding: 10px;
+}
+
+img {
+  width: 100px;
+  float: left;
+}
+
+h3 {
+  color: rgb(255, 255, 255);
+}
+
+h3 + p {
+  color: rgb(255, 255, 255);
+}
+
+#email {
+  color: rgb(89, 89, 255);
+  font-size: 16px;
+}
+
+.team-person,
+.team-info {
+  line-height: 20px;
+}
+
+p + email {
+  font-size: 13px;
 }
